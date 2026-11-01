@@ -1,32 +1,25 @@
-# CodSoft Project Workspace
+# CodSoft Web Development Projects
 
-This repository is a workspace for documenting and developing web application practice projects associated with CodSoft learning tasks.
+A small portfolio of front-end practice projects completed with HTML, CSS and JavaScript.
 
 ## Projects
 
-| Project | Folder | Current status |
+| Project | Folder | Description |
 |---|---|---|
-| Online Job Board | `Task-1-Job-Board/` | Planning / setup |
-| Online Quiz Maker | `Task-2-Quiz-App/` | Project setup in progress |
+| Online Job Board | [Task-1-Job-Board](Task-1-Job-Board/) | Search and filter sample job listings, then view details |
+| Online Quiz App | [Task-2-Quiz-App](Task-2-Quiz-App/) | Multiple-choice quiz with feedback, progress and score |
 
-## Technology direction
+## Run locally
+Open the root `index.html` to see the project menu, or open either task folder's `index.html` directly.
 
-The task descriptions currently mention front-end and back-end technologies such as HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB. The actual implementation and technology used should be documented as each project is completed.
+## Technology
+HTML5 · CSS3 · Vanilla JavaScript
 
-## Repository structure
+## Important scope note
+These are front-end demonstrations. The job board uses fictional sample listings and does not submit applications. The quiz runs in the browser with a built-in question set. There is no server, database, authentication or live job feed.
 
-```text
-CODSOFT/
-├── Task-1-Job-Board/
-│   └── README.md
-└── Task-2-Quiz-App/
-    └── README.md
-```
-
-## Important note
-
-This repository is a work in progress. Features listed in individual task descriptions are goals, not claims that a complete production application or backend has already been implemented.
+## Deployment
+To publish all three pages together, enable GitHub Pages from **Settings → Pages → Deploy from a branch → main → /(root)**.
 
 ## Author
-
-Rupsa Maji — [GitHub](https://github.com/Rupsamaji)
+Rupsa Maji · [GitHub](https://github.com/Rupsamaji)
