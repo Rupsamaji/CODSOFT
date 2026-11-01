@@ -1,29 +1,22 @@
 # Task 1 — Online Job Board
 
-## Overview
+A responsive front-end job board demo with sample opportunities.
 
-This folder is reserved for an online job-board application practice project. The intended goal is to build a simple interface where users can browse and search job listings.
-
-## Planned features
-
-- Display sample job listings
-- Search listings by job title or keyword
-- Filter listings by category or location
-- View additional details for a selected listing
-- Responsive layout for desktop and mobile screens
-
-## Possible technology stack
-
-The implementation may use HTML, CSS, and JavaScript for a static prototype. A full-stack version would require a backend and database.
-
-## Current status
-
-Project setup / implementation pending. The features above are planned and should not be considered completed until they are implemented and tested.
+## Features
+- Search by job title, company or keyword
+- Filter sample listings by location
+- View additional information in a details dialog
+- Responsive layout for mobile and desktop
+- Empty state when no listings match
 
 ## Run
+Open `index.html` in a modern browser. No dependencies or setup are required.
 
-No runnable application is included in this folder yet.
+## Technology
+HTML5 · CSS3 · Vanilla JavaScript
+
+## Limitations
+Listings are fictional sample data. This prototype does not connect to employers, accept applications, or use a backend/database.
 
 ## Author
-
-Rupsa Maji — [GitHub](https://github.com/Rupsamaji)
+Rupsa Maji · [GitHub](https://github.com/Rupsamaji)
