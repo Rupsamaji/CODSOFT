@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Search and explore job opportunities."><title>CareerBoard — Find your next role</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<header class="topbar"><a class="brand" href="#">Career<span>Board</span></a><span class="tagline">A clearer path to your next role</span></header>
+<main>
+<section class="hero"><p class="eyebrow">OPPORTUNITY STARTS HERE</p><h1>Find work that<br><span>moves you forward.</span></h1><p class="intro">Explore opportunities from teams building what comes next.</p></section>
+<section class="search-panel" aria-label="Search jobs"><input id="query" placeholder="Job title or company" aria-label="Job title or company"><input id="location" placeholder="Location" aria-label="Location"><select id="type" aria-label="Employment type"><option value="">All types</option><option>Full-time</option><option>Internship</option><option>Part-time</option><option>Contract</option></select><button id="search">Search jobs</button></section>
+<div class="section-head"><div><p class="eyebrow">CURATED OPPORTUNITIES</p><h2>Open positions</h2></div><span id="count" class="muted">Loading…</span></div>
+<div id="status" role="status" class="status"></div><section id="jobs" class="job-grid"></section>
+</main><footer>CareerBoard · Demo recruitment platform · Connect the Spring Boot API to load live records.</footer>
+<script src="app.js"></script></body></html>

@@ -1,25 +1,20 @@
-# CodSoft Web Development Projects
+# CareerBoard — Full-Stack Job Portal
 
-A small portfolio of front-end practice projects completed with HTML, CSS and JavaScript.
+A portfolio workspace for recruitment software. Existing learning projects remain in their original folders; the new Spring Boot project is isolated under `job-platform/`.
 
-## Projects
+## Featured project: CareerBoard
+- **Backend:** Java 17, Spring Boot 3, Spring Data JPA, H2, Bean Validation
+- **Frontend:** HTML, CSS and JavaScript
+- **Features implemented:** job listing CRUD, title/company/location/type filtering, request validation, centralized API errors and responsive UI.
 
-| Project | Folder | Description |
-|---|---|---|
-| Online Job Board | [Task-1-Job-Board](Task-1-Job-Board/) | Search and filter sample job listings, then view details |
-| Online Quiz App | [Task-2-Quiz-App](Task-2-Quiz-App/) | Multiple-choice quiz with feedback, progress and score |
+See [job-platform/README.md](job-platform/README.md) for setup, API documentation and implementation status.
 
-## Run locally
-Open the root `index.html` to see the project menu, or open either task folder's `index.html` directly.
-
-## Technology
-HTML5 · CSS3 · Vanilla JavaScript
-
-## Important scope note
-These are front-end demonstrations. The job board uses fictional sample listings and does not submit applications. The quiz runs in the browser with a built-in question set. There is no server, database, authentication or live job feed.
-
-## Deployment
-To publish all three pages together, enable GitHub Pages from **Settings → Pages → Deploy from a branch → main → /(root)**.
+## Earlier learning projects (preserved)
+- [Online Job Board](Task-1-Job-Board/)
+- [Online Quiz App](Task-2-Quiz-App/)
 
 ## Author
 Rupsa Maji · [GitHub](https://github.com/Rupsamaji)
+
+## Important
+The featured project is an actively developed portfolio application. Authentication, candidate accounts, applications, secure resume uploads, PostgreSQL deployment and AI matching are future milestones and are not yet implemented.
